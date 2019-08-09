@@ -1,0 +1,112 @@
+@page
+@model hackaton.Views.Home.second_page
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<style>
+body{
+	background: url(images/fon.jpg) no-repeat;
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    background-size: cover; 
+}
+
+.ramka_for_photo {
+   
+  
+padding:8px;
+    background-color: white;
+   
+}
+.shrift{
+    font-size: 100px;
+ 
+}
+
+
+</style>
+<head>
+    <title> main page </title>
+    <meta charset = "utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	
+	<div class="btn-group btn-group-toggle" data-toggle="buttons">
+  <label class="btn btn-outline-secondary">
+    <input type="radio" name="options" id="option1" autocomplete="off">Main Page
+  </label>
+  <label class="btn btn-outline-secondary">
+    <input type="radio" name="options" id="option2" autocomplete="off">Gallery
+  </label>
+  <label class="btn btn-outline-secondary">
+    <input type="radio" name="options" id="option3" autocomplete="off">Сompetition
+  </label>
+  </div>
+  
+  <div class=" shrift">
+     Flying photo
+    </div>
+    <div class="galery_position_mine">
+        <div class="btn-group">
+         
+            <button type="radio" name="options" id="option2" autocomplete="off" class="btn btn-outline-secondary  dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                По странам
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Америка</a>
+                <a class="dropdown-item" href="#">Россия</a>
+
+                <a class="dropdown-item" href="#">Франция</a>
+                <a class="dropdown-item" href="#">Монголия</a>
+            </div>
+        </div>
+
+        <div class="btn-group">
+            <button type="radio" name="options" id="option2" autocomplete="off" class="btn btn-outline-secondary  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                По датам
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">2015</a>
+                <a class="dropdown-item" href="#">2016</a>
+
+                <a class="dropdown-item" href="#">2017</a>
+                <a class="dropdown-item" href="#">2018</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div >
+    
+    <img src="images/add1.png" class="ramka_for_photo " width="200" height="211">
+
+        <img src="images/zamok-kronborg.jpg" class="ramka_for_photo " width="200" height="211">
+        <img src="images/eresunnskiy_most_melnici.jpg" class="ramka_for_photo " width="200" height="211">
+
+        <img src="images/eresunnskiy_most_zakat.jpg" class="ramka_for_photo " width="200" height="211">
+
+        <img src="images/grenlandiya_holod.jpg" class="ramka_for_photo " width="200" height="211">
+
+        <img src="images/grenlandiya_priroda.jpg" class="ramka_for_photo " width="200" height="211">
+
+        <img src="images/legolend_v_danii_na_abordazh.jpg" class="ramka_for_photo " width="200" height="211">
+
+        <img src="images/legolend_v_danii_sloni.jpg" class="ramka_for_photo " width="200" height="211">
+
+        <img src="images/legolend_v_danii_star_wars.jpg" class="ramka_for_photo" width="200" height="211">
+
+        <img src="images/park_tivoli_noch'.jpg" class="ramka_for_photo " width="200" height="211">
+
+
+        <img src="images/park-tivoli_korabl'.jpg" class="ramka_for_photo" width="200" height="211">
+
+
+    </div>
+</body>
+</html>

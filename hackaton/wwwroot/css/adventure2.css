@@ -1,0 +1,15 @@
+.ramka_for_gallery {
+    border: 2px #4a586a solid;
+    border-radius: 25px;
+    padding: 8px;
+    background-color: none;
+    height:auto;
+    width: auto;
+}
+.shrift{
+    font-size: 100px;
+}
+
+.body {
+    background-image: url(fon.jpg);
+}
