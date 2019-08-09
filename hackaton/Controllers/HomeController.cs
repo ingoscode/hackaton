@@ -15,6 +15,11 @@ namespace hackaton.Controllers
             return View("main_page");
         }
 
+        public IActionResult Second()
+        {
+            return View("second_page");
+        }
+        
         public IActionResult Privacy()
         {
             return View();
